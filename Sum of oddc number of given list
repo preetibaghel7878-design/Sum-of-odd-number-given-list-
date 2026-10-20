@@ -1,0 +1,10 @@
+#program to aad odd number from given list 
+
+sod=0
+a=list(eval(input("enter a list of integer")))
+for i in a:
+	if i%2!=0:
+		sod+=i
+	else:
+		continue
+print("the sum of odd integer:",sod)
